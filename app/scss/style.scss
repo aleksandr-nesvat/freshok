@@ -88,6 +88,11 @@
   z-index: 10;
 }
 
+.search {
+  max-width: 576px;
+  width: 100%;
+}
+
 .search__btn {
   background-color: $dark-background;
   padding: 15px 52px;
@@ -96,6 +101,222 @@
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
+}
+
+.search__input {
+  max-width: 420px;
+  width: 100%;
+  padding: 15px 20px 15px 50px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border: 0px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: $dark-background;
+  background-image: url('../images/icons/search.svg');
+  background-position: 4% center;
+  background-repeat: no-repeat;
+}
+
+.search__input::placeholder {
+  font-size: 14px;
+  line-height: 1.4;
+  color: $dark-background;
+}
+
+.header__dropdown {
+  background-color: #ffffff;
+  color: $accent;
+  padding: 15px 40px 15px 60px;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  position: relative;
+}
+
+.header__dropdown::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  width: 25px;
+  height: 17px;
+  background-image: url('../images/icons/catalogue_icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header__dropdown::after {
+  content: '';
+  position: absolute;
+  top: 23px;
+  right: 18px;
+  width: 8px;
+  height: 4px;
+  background-image: url('../images/icons/catalogue_down.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+
+.benefits {
+  background-color: #f6f6f6;
+}
+
+.container_benefits {
+  padding: 40px 120px 30px 120px;
+}
+
+.benefits__list {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.benefits__item-title {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #121212;
+}
+
+.benefits__item {
+  max-width: 255px;
+  width: 100%;
+  padding-left: 70px;
+}
+
+.benefits__item--free {
+  background-image: url('../images/benefits_free.svg');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.benefits__item--return {
+  background-image: url('../images/benefits_return.svg');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.benefits__item--support {
+  background-image: url('../images/benefits_support.svg');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.footer {
+  background-color: $dark-background;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.footer__bottom {
+  border-top: 1px solid #454940;
+  padding: 24px 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer__top {
+  padding: 30px 0;
+}
+
+.footer__middle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.footer__menu {
+  max-width: 200px;
+  width: 100%;
+  margin-right: 70px;
+}
+
+.footer__middle-menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  width: 100%;
+}
+
+.footer__menu-item {
+  padding-bottom: 18px;
+}
+
+
+.subscribe__btn {
+  padding: 12px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subscribe__input {
+  max-width: 180px;
+  width: 100%;
+  padding: 9px 12px 11px 12px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border: 0px;
+  font-size: 14px;
+  line-height: 1;
+  color: $dark-background;
+}
+
+.subscribe {
+  max-width: 450px;
+  width: 100%;
+}
+
+.subscribe__form {
+  padding-top: 18px;
+}
+
+
+
+.footer__middle-social {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer__middle-contacts--phone,
+.footer__middle-contacts--address {
+  padding-bottom: 18px;
+  display: block;
+}
+
+.footer__middle-social--item {
+  padding-right:15px;
+}
+
+.footer__copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__bottom-img {
+  display: inline-block;
+  padding-left: 24px;
 }
 
 
