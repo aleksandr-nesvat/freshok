@@ -8,7 +8,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;  
-  color: $default;
+  letter-spacing: 0.03em;
+  color: $dark-500;
   @extend %OpenSans-400;
   display: flex;
   flex-direction: column;
@@ -31,11 +32,11 @@ body {
   line-height: 1.4;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: $title;
+  color: $dark-900;
 }
 
 .btn {
-  background-color: $accent;
+  background-color: $green-900;
   border-radius: 6px;
   padding: 12px 24px;
   color: $white;
